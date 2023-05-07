@@ -18,9 +18,9 @@ const Cart = () => {
   const operation = subtotalSumOperation(addedProduct);
 
   return (
-    <aside>
+    <aside className="wrapper">
       {addedProduct.length > 0 ? (
-        <div className="wrapper">
+        <div className="container">
           <h3>Cart y numero de items</h3>
           <div className="top-cart">
             <h4>Your cart</h4>{" "}

@@ -1,4 +1,8 @@
-aside {
+.wrapper {
+  position: sticky;
+  top: 0; }
+  
+.container {
   width: 40vw;
   height: fit-content;
   position: absolute;
@@ -10,10 +14,6 @@ aside {
   border: 1px solid rgba(0, 0, 0, 0.5);
   background-color: #ebebe9;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
-
-.wrapper {
-  position: sticky;
-  top: 0; }
 
 div > button {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
